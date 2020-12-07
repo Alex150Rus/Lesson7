@@ -113,7 +113,7 @@ namespace Lesson7
         {
             int c = 1;
             minTurns = 0;
-            while (c * 2 < number)
+            while (c * 2 <= number)
             {
                 c = c * 2;
                 minTurns++;
